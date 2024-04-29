@@ -140,7 +140,7 @@ function retry(func, attempts) {
       try {
         return func();
       } catch (error) {
-        console.log(error);
+        // error
       }
     }
     throw new Error('fail');
